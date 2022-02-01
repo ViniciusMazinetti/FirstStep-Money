@@ -1,18 +1,15 @@
 import React from 'react'
 import {View, Text, StyleSheet} from 'react-native'
+import Register from './src/screens/Register'
 
 const App = () => {
   return(
     <View>
-      <Text style={styles.text}>Primeira Página</Text>
+      <Register/>
     </View>
   )
 }
 
-const styles= StyleSheet.create({
-  text:{
-    fontSize: 18
-  }
-})
+const styles= StyleSheet.create({})
 
 export default App
