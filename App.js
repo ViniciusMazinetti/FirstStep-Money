@@ -1,18 +1,20 @@
 import React from 'react'
-import {View, Text, StyleSheet} from 'react-native'
+import {View, Text, StyleSheet, Image} from 'react-native'
+import Statement from './src/screens/Statement'
 
 const App = () => {
   return(
     <View>
-      <Text style={styles.text}>Primeira Página</Text>
+      <Statement></Statement>
+
     </View>
   )
 }
 
-const styles= StyleSheet.create({
-  text:{
-    fontSize: 18
-  }
+const styles = StyleSheet.create({
+
 })
+
+
 
 export default App
